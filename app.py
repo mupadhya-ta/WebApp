@@ -13,14 +13,14 @@ import pickle
 import numpy as np
 # Load the trained model
 
-model = load_model('/content/drive/MyDrive/models/pneumonia.h5')
+model = load_model('WebApp/pneumonia.h5')
 
-app = Flask(__name__,template_folder='/content/drive/MyDrive/WebApp/templates')
+app = Flask(__name__,template_folder='WebApp/templates')
 run_with_ngrok(app)
 ngrok.set_auth_token('2M1S9O9HgAtEu392TPckxBrbxBA_3ocqMB5F1oFTHzN7acm4M')
 # Set the path where uploaded files will be saved
 
-UPLOAD_FOLDER = '/content/drive/MyDrive/WebApp/uploads'
+UPLOAD_FOLDER = 'WebApp/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Define the API endpoint
