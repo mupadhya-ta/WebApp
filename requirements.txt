@@ -2,6 +2,6 @@ Flask==1.1.1
 gunicorn==19.9.0
 numpy==1.9.2
 matplotlib>=1.4.3
-Pandas>=0.19
+Pandas
 pyngrok
 flask-ngrok
