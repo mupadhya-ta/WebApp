@@ -6,6 +6,6 @@ Pandas
 pyngrok
 flask-ngrok
 keras.models
-werkzeug.utils
+werkzeug
 tensorflow
 
