@@ -1,8 +1,6 @@
 Flask
 gunicorn
 numpy
-matplotlib
-Pandas
 pyngrok
 flask-ngrok
 keras.models
