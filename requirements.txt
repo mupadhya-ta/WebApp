@@ -5,6 +5,7 @@ matplotlib
 Pandas
 pyngrok
 flask-ngrok
-Keras
+keras.models
+werkzeug.utils
 tensorflow
-werkzeug
+
