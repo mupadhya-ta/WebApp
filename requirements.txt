@@ -5,3 +5,5 @@ matplotlib
 Pandas
 pyngrok
 flask-ngrok
+Keras
+tensorflow
