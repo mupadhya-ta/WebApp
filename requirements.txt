@@ -1,8 +1,8 @@
-Flask==2.2.3
-gunicorn
-numpy
-pyngrok
-flask-ngrok
-keras.models
-tensorflow
-
+Flask==2.1.2
+flask-ngrok==0.0.25
+keras==2.6.0
+numpy==1.19.5
+Pillow==8.3.2
+pyngrok==5.1.0
+tensorflow==2.6.0
+werkzeug==2.0.2
