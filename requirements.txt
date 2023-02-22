@@ -7,3 +7,4 @@ pyngrok
 flask-ngrok
 Keras
 tensorflow
+werkzeug
